@@ -6,8 +6,8 @@
     "File",
     "Share"
   ],
-  "repository": "https://github.com/COLD-ONEZ/File-SHare-Bot",
-  "logo": "https://telegra.ph/file/0f3e2323abbfb493ca817.jpg",
+  "repository": "https://github.com/akrcreation2/Knmlpro2-File-Share-Bot",
+  "logo": "https://telegra.ph/file/b4dbf6fdb1d1eec511b9d.jpg",
   "env": {
     "TG_BOT_TOKEN": {
       "description": "Your Bot token, Get it from @Botfather",
