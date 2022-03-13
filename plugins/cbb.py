@@ -11,7 +11,7 @@ async def cb_handler(client: Bot, query: CallbackQuery):
     data = query.data
     if data == "about":
         await query.message.edit_text(
-            text = f"<b>○ Mᴀsᴛᴇʀ : <a href='https://t.me/knmlpro2'>Kɴᴍʟᴘʀᴏ2</a>\n○ Lᴀɴɢᴜᴀɢᴇ : <code>Python3</code>\n○ Lɪʙʀᴀʀʏ : <a href='https://docs.pyrogram.org/'>Pyrogram asyncio {__version__}</a>\n○ Sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ : <a href='https://github.com/akrcreation2/Knmlpro2-File-Share-Bot'>Click Here</a>\n○ Cʜᴀɴɴᴇʟ : @Knmlpro2\n○ Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ : @Knmlpro2_group</b>",
+            text = f"<b>○ Mᴀsᴛᴇʀ : <a href='https://t.me/knmlpro2'>Kɴᴍʟᴘʀᴏ2</a>\n○ Lᴀɴɢᴜᴀɢᴇ : <code>Python3</code>\n○ Lɪʙʀᴀʀʏ : <a href='https://docs.pyrogram.org/'>Pyrogram asyncio {__version__}</a>\n○ Sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ : <a href='https://github.com'>Click Here</a>\n○ Cʜᴀɴɴᴇʟ : @Knmlpro2\n○ Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ : @Knmlpro2_group</b>",
             disable_web_page_preview = True,
             reply_markup = InlineKeyboardMarkup(
                 [
