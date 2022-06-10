@@ -25,7 +25,7 @@ async def channel_post(client: Client, message: Message):
     converted_id = post_message.message_id * abs(client.db_channel.id)
     string = f"get-{converted_id}"
     base64_string = await encode(string)
-    link = f"https://t.me/{client.username}?start={base64_string}"
+    link = f"https://telegram.me/{client.username}?start={base64_string}"
 
     reply_markup = InlineKeyboardMarkup([[InlineKeyboardButton("🔁 Sʜᴀʀᴇ URL 🔁", url=f'https://telegram.me/share/url?url={link}')]])
 
@@ -43,4 +43,4 @@ async def new_post(client: Client, message: Message):
     converted_id = message.message_id * abs(client.db_channel.id)
     string = f"get-{converted_id}"
     base64_string = await encode(string)
-    link = f"https://t.me/{client.username}?start={base64_string}"
+    link = f"https://telegram.me/{client.username}?start={base64_string}"
